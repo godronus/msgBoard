@@ -1,0 +1,48 @@
+{
+  "name": "msgboard",
+  "version": "1.0.0",
+  "description": "node message board",
+  "main": "src/index.js",
+  "author": "Gordon Farquharson",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node dist/src/index.js",
+    "test": "jest"
+  },
+  "homepage": "https://github.com/godronus/msgBoard#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godronus/msgBoard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/godronus/msgBoard/issues"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.8",
+    "@types/express-mongo-sanitize": "^1.3.2",
+    "@types/helmet": "0.0.48",
+    "@types/jest": "^26.0.14",
+    "@types/mongoose": "^5.7.36",
+    "@types/node": "^14.11.10",
+    "@types/supertest": "^2.0.10",
+    "jest": "^26.5.3",
+    "mongodb-memory-server": "^6.9.2",
+    "supertest": "^5.0.0",
+    "ts-jest": "^26.4.1",
+    "ts-node-dev": "^1.0.0",
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.0",
+    "helmet": "^4.1.1",
+    "joi": "^17.2.1",
+    "mongoose": "^5.10.9"
+  }
+}
