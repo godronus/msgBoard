@@ -25,8 +25,9 @@ on requests (Joi). Ensuring some simple security, i.e. express-mongo-sanitize & 
 Places I would like to have spent more time.
 
 1)  There is only a basic set of route-based integration tests currently. There is room for improvement here. (Tests should not be relying on other tests for state)
-2)  Build environment would be better suited using webpack and babelify, would allow for absolute paths amongst other things.
-3)  Completing CRUD functionality for /messages.
-4)  Handling of static files and capability to serve a front end.
+2)  Error handling and logging. Should have a class to handle this, allowing for different levels and output locations.
+3)  Build environment would be better suited using webpack and babelify, would allow for absolute paths amongst other things.
+4)  Completing CRUD functionality for /messages.
+5)  Handling of static files and capability to serve a front end.
 
 
